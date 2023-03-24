@@ -1,10 +1,10 @@
-api_key = "RGAPI-a7e5bc3b-0a00-4ab7-987d-99b8604e5122"
+api_key = "PONER SU API" #get api in https://developer.riotgames.com/
 
 #/lol/summoner/v4/summoners/by-account/{encryptedAccountId}
 
 
 api_url = "https://la1.api.riotgames.com/lol/summoner/v4/summoners/by-name/"
-user= "beast10000"
+user= "ADD YOUR USER LOL" #Colocar el usuario de lol
 import requests 
 import json
 api_url = api_url+user+"/"+"?api_key="+api_key
